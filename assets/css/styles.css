@@ -750,6 +750,10 @@ img{
     .home__blob{
         width:180px;
     }
+
+    .skills__title{
+        font-size: var(--normal-font-size);
+    }
 }
 
 /* For medium devices */
@@ -761,14 +765,20 @@ img{
     .home__date{
         grid-column: initial;
     }
-    
+
     .home__img{
         order: 1;
         justify-self: center;
     }
 
-    .about__container{
-
+    .about__container
+    .skills__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .qualification__section{
+        display: grid;
+        grid-template-columns: .6fr;
+        justify-content: center;
     }
 }
 
