@@ -729,9 +729,47 @@ img{
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
+@media screen and (max-width: 350px){
+    .container{
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
 
+    .var__menu{
+        padding: 2rem .25rem 4rem;
+    }
+
+    .nav__list{
+        column-gap: 0;
+    }
+
+    .home__content{
+        grid-template-columns: .25fr 3fr;
+    }
+
+    .home__blob{
+        width:180px;
+    }
+}
 
 /* For medium devices */
+@media screen and (min-width: 568px){
+    .home__content {
+        grid-template-columns: max-content 1fr 1fr;
+    }
 
+    .home__date{
+        grid-column: initial;
+    }
+    
+    .home__img{
+        order: 1;
+        justify-self: center;
+    }
+
+    .about__container{
+
+    }
+}
 
 /* For large devices */
