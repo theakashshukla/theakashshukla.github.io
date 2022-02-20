@@ -121,7 +121,7 @@ window.addEventListener('scroll', scrollHeader)
 var text = ["Ethical Hacker 🛡️", "App Developer 📲", "Software Engineer 🧑‍💻", ];
 var counter = 0;
 var elem = document.getElementById("changeText");
-var inst = setInterval(change, 10000);
+var inst = setInterval(change, 85000);
 
 function change() {
   elem.innerHTML = text[counter];
