@@ -497,6 +497,11 @@ img{
 .skills__open .skills__arrow{
     transform: rotate(-180deg);
 }
+
+#changeText{
+    color: rgb(255, 175, 100);    
+}
+
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
     display: flex;
