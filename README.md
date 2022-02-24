@@ -1,3 +1,21 @@
 
-### Responsive Portfolio Website 
-Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface. It contains a Header, Home, About, Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact and Footer.
+### Portfolio
+
+Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface.
+
+used language in badge format
+
+### Language 
+
+HTML: 
+CSS: 
+JavaScript: 
+
+## Hosting
+
+Github Pages
+
+## Icon
+
+iconscout
+
