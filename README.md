@@ -15,5 +15,5 @@ Github Pages
 
 ## Icon
 
-unicons.iconscout
+iconscout
 
