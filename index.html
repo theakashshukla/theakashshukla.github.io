@@ -36,10 +36,16 @@
 </head>
 
 <body>
+
+    <!--==================== Micro Data====================-->
+    <div itemscope itemtype="https://schema.org/Person">
+    
+     <!-- <img src="https://avatars.githubusercontent.com/u/49320497?v=4" itemprop="image" alt="Photo of Akash Shukla"/> -->
+
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Akash Shukla</a>
+            <a href="#" class="nav__logo" itemprop="name">Akash Shukla</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
@@ -94,16 +100,16 @@
                         <!-- <a href="https://www.medium.com/@theakashshukla/" target="_blank" class="home__social-icon">
                             <i class="uil uil-medium-m"></i>
                         </a> -->
-                        <a href="https://github.com/theakashshukla/" target="_blank" class="home__social-icon">
+                        <a href="https://github.com/theakashshukla/" target="_blank" class="home__social-icon" itemprop="sameAs">
                             <i class="uil uil-github-alt"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/theakashshukla/" target="_blank" class="home__social-icon">
+                        <a href="https://www.linkedin.com/in/theakashshukla/" target="_blank" class="home__social-icon" itemprop="sameAs">
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
-                        <a href="https://www.instagram.com/theakashshukla/" target="_blank" class="home__social-icon">
+                        <a href="https://www.instagram.com/theakashshukla/" target="_blank" class="home__social-icon" itemprop="sameAs">
                             <i class="uil uil-instagram"></i>
                         </a>
-                        <a href="https://www.polywork.com/theakashshukla" target="_blank" class="home__social-icon">
+                        <a href="https://www.polywork.com/theakashshukla" target="_blank" class="home__social-icon" itemprop="sameAs">
                             <i class="uil uil-lightbulb-alt"></i>
                         </a>
                     </div>
@@ -129,7 +135,7 @@
 
                     <div class="home__data">
                         <h1 class="home__title">Hi, 👋 I'am Akash</h1>
-                        <h2 class="home__subtitle" id="changeText">Software Engineer 🧑‍💻</h2>
+                        <h2 class="home__subtitle" id="changeText" itemprop="jobTitle">Software Engineer 🧑‍💻</h2>
                         <p class="home__description">High Level experiance in web design and development
                             knowledge, producing quality work.
                         </p>
@@ -623,12 +629,12 @@
 
     <!--==================== SCROLL TOP ====================-->
 
-
     <!--==================== SWIPER JS =====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
+</div>
 </body>
 
 </html>
