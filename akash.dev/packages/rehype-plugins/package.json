@@ -1,0 +1,23 @@
+{
+  "name": "rehype-plugins",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup --env.NODE_ENV production",
+    "dev": "tsup --watch",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "rehype-prism-plus": "^1.5.0",
+    "unist-util-visit": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint-config-typescript": "workspace:*",
+    "tsconfig": "workspace:*",
+    "tsup": "^6.5.0",
+    "unified": "^10.1.2"
+  }
+}
