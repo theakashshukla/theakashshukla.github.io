@@ -1,4 +1,4 @@
-import WithReactions from '@/components/layouts/WithReactions';
+
 import WithTableOfContents from '@/components/layouts/WithTableOfContents';
 import Head from '@/components/meta/Head';
 import SkipNavigation from '@/components/navigations/SkipNavigation';
@@ -39,7 +39,7 @@ function ProjectLayout({
         {children}
         <ProjectFooter githubUrl={githubUrl} />
       </WithTableOfContents>
-      <WithReactions contentTitle={title} contentType="PROJECT" />
+     
     </>
   );
 }
