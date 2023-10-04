@@ -5,7 +5,8 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "clean": "turbo run clean",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "start": "cd apps/theakash && pnpm run start"
   },
   "devDependencies": {
     "eslint": "^8.31.0",
