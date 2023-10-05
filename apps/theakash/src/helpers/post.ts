@@ -96,7 +96,7 @@ export const getPostStructuredData = ({
         '@type': 'Person',
         name: 'Akash Shukla',
         jobTitle: 'Front-End Developer',
-        url: 'https://www.akash/about',
+        url: 'https://www.theakashshukla.vercel.app/about',
       },
     ],
   });

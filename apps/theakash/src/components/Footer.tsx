@@ -13,7 +13,7 @@ import dayjs from '@/utils/dayjs';
 function LastUpdate() {
   return (
     <a
-      href="https://github.com/theakashshukla/akash"
+      href="https://github.com/theakashshukla/theakashshukla.github.io"
       target="_blank"
       rel="noreferrer nofollow"
       className={clsx('hover:underline')}

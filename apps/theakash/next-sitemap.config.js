@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://theakashshukla.github.io',
+  siteUrl: 'https://theakashshukla.vercel.app',
   priority: 0.6,
   generateRobotsTxt: true,
   generateIndexSitemap: false,

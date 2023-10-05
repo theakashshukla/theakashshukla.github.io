@@ -1,9 +1,11 @@
 import clsx from 'clsx';
 
 import WithTableOfContentsMock from '@/components/layouts/WithTableOfContentsMock';
+import Reactions from '@/components/Reactions';
 
+import type { ReactionsProps } from '@/components/Reactions';
 
-function WithReactions() {
+function WithReactions(props: ReactionsProps) {
   return (
     <div
       className={clsx(
@@ -20,7 +22,7 @@ function WithReactions() {
           )}
         >
           {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-        
+          <Reactions {...props} />
         </div>
       </WithTableOfContentsMock>
     </div>

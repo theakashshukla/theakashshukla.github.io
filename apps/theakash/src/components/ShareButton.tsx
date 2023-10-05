@@ -1,4 +1,5 @@
 import { Menu } from '@headlessui/react';
+import { ShareType } from '@prisma/client';
 import clsx from 'clsx';
 import { m } from 'framer-motion';
 import { forwardRef } from 'react';
@@ -74,9 +75,11 @@ const animation = {
   show: { opacity: 1, y: 0, transition: { duration: 0.18 } },
 };
 
+interface ShareButtonProps {
+  onItemClick?: (type: ShareType) => void;
+}
 
-
-function ShareButton( ) {
+function ShareButton({ onItemClick = () => {} }: ShareButtonProps) {
   const currentUrl = useCurrentUrl();
 
   const handleCopy = async () => {
@@ -84,14 +87,14 @@ function ShareButton( ) {
       const content = currentUrl;
       await navigator.clipboard.writeText(content);
 
-      
+      onItemClick('CLIPBOARD');
     } catch (err) {
       //
     }
   };
 
   const handleTwitter = () => {
-    
+    onItemClick('TWITTER');
   };
 
   return (

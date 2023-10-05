@@ -51,7 +51,10 @@ function Navbar() {
                 <NavLink title="Projects" href="/projects" />
               </li>
               <li>
-                <NavLink title="Blog" href="https://theakashshukla.hashnode.dev" />
+                <NavLink
+                  title="Blog"
+                  href="https://theakashshukla.hashnode.dev"
+                />
               </li>
               <li>
                 <NavLink title="T.I.L" href="https://twitter.com/theskaai" />
@@ -68,7 +71,7 @@ function Navbar() {
               <li className={clsx('hidden lg:block')} data-accent="blue">
                 <NavLinkExpanded title="Work" items={workLinks} />
               </li>
-            </ul>
+            </ul>  
           </nav>
           <ul className={clsx('flex items-center')}>
             <li className={clsx('hidden', 'sm:block')}>
