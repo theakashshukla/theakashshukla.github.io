@@ -6,8 +6,11 @@ import { formatDate } from '@/helpers/post';
 
 import type { NextRequest } from 'next/server';
 
+// export const config = {
+//   runtime: 'experimental-edge',
+// };
 export const config = {
-  runtime: 'experimental-edge',
+  runtime: 'edge',
 };
 
 const PlusJakartaSans400 = fetch(
