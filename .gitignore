@@ -1,23 +1,24 @@
-dist
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-node_modules
-.pnp
+/node_modules
+/.pnp
 .pnp.js
+.yarn/install-state.gz
 
 # testing
-coverage
+/coverage
 
 # next.js
-.next/
-out/
-build
-.swc/
+/.next/
+/out/
+
+# production
+/build
 
 # misc
 .DS_Store
 *.pem
-*.tsbuildinfo
 
 # debug
 npm-debug.log*
@@ -25,17 +26,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env*.local
 
-# turbo
-.turbo
+# vercel
+.vercel
 
-# next-sitemap
-robots.txt
-sitemap.xml
-
-# prevent accidentally committing and pushing draft files/directories
-*((DRAFT))*
+# typescript
+*.tsbuildinfo
+next-env.d.ts
