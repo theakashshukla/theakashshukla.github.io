@@ -4,7 +4,6 @@ import "./globals.css";
 import { SiteHeader } from "@/components/Navigation";
 import { ThemeProvider } from "@/components/providers";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,17 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-        
-        >
-          
-          <SiteHeader />
-          {children}
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <div className="m-6">
+            <SiteHeader />
+            {children}
+          </div>
         </ThemeProvider>
-        
       </body>
     </html>
   );
