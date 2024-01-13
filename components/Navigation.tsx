@@ -6,7 +6,7 @@
 // import { Icons } from "@/components/icons"
 // import { MainNav } from "@/components/main-nav"
 // import { MobileNav } from "@/components/mobile-nav"
-import { ModeToggle } from "@/components/mode-toggle"
+// import { ModeToggle } from "@/components/mode-toggle"
 // import { buttonVariants } from "@/components/ui/button"
 
 export function SiteHeader() {
@@ -54,7 +54,7 @@ export function SiteHeader() {
                 <span className="sr-only">Twitter</span>
               </div>
             </Link> */}
-            <ModeToggle />
+            {/* <ModeToggle /> */}
           </nav>
         </div>
       </div>
