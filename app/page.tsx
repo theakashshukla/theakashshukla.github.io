@@ -1,7 +1,6 @@
-import Header from "@/components/Header";
-import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Icons } from "@/components/icons";
+
 
 export default function Home() {
   return (
