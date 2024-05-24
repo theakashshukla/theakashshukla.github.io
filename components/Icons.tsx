@@ -2,9 +2,7 @@ import {
   LucideProps,
   Moon,
   SunMedium,
-  Twitter,
   LucideIcon,
-  Linkedin,
   LinkedinIcon,
 } from "lucide-react";
 
