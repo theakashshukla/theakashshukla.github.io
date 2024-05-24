@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
+import { Icons } from "@/components/icons";
 
 export default function Home() {
   return (
@@ -12,12 +13,12 @@ export default function Home() {
           <div className="flex items-center">
             <div>
               <img
-                className="inline-block object-cover w-24 h-48 rounded-full lg:w-64 lg:h-96"
+                className="inline-block object-cover w-24 h-48 rounded-full md:w-48 md:h-72 lg:w-64 lg:h-96"
                 src="akash.jpg"
                 alt="theakashshukla"
               />
             </div>
-            <div className="ml-4 md:ml-8">
+            <div className="ml-6">
               {/* <div
                 className={cn(
                   "mb-1 flex items-center gap-1 text-2xl text-slate-600",
@@ -54,17 +55,27 @@ export default function Home() {
               </h1>
               <div className="flex mt-12 space-x-6 text-xs text-gray-500 uppercase">
                 <a href="#_" className="duration-200 hover:text-gray-400">
-                  Twitter
+                  {/* Twitter */}
+                  <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset size ring-yellow-600/20">
+      
+
+                  <Icons.twitx className="size-4" /></span>
                 </a>
                 <a href="#_" className="duration-200 hover:text-gray-400">
-                  Linkedin
+                  {/* Linkedin */}
+                  <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">
+  
+      
+                  <Icons.linkedin className="size-4" /></span>
                 </a>
                 <a href="#_" className="duration-200 hover:text-gray-400">
-                  GitHub
+                  {/* GitHub */}
+                  <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+     
+      
+                  <Icons.gitHub className="size-4" /></span>
                 </a>
-                <a href="#_" className="duration-200 hover:text-gray-400">
-                  PostsCV
-                </a>
+              
               </div>
             </div>
           </div>
