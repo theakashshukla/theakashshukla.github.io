@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { Icons } from "@/components/icons";
+// import { Icons } from "@/components/icons";
 
 
 export default function Home() {
@@ -58,21 +58,24 @@ export default function Home() {
                   <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset size ring-yellow-600/20">
       
 
-                  <Icons.twitx className="size-4" /></span>
+                  {/* <Icons.twitx className="size-4" /> */}
+                  </span>
                 </a>
                 <a href="#_" className="duration-200 hover:text-gray-400">
                   {/* Linkedin */}
                   <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">
   
       
-                  <Icons.linkedin className="size-4" /></span>
+                  {/* <Icons.linkedin className="size-4" /> */}
+                  </span>
                 </a>
                 <a href="#_" className="duration-200 hover:text-gray-400">
                   {/* GitHub */}
                   <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
      
       
-                  <Icons.gitHub className="size-4" /></span>
+                  {/* <Icons.gitHub className="size-4" /> */}
+                  </span>
                 </a>
               
               </div>
