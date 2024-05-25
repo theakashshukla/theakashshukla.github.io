@@ -1,12 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { siteConfig } from "@/config/site";
 
+import { siteConfig } from "@/config/site";
+import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
-// import { TailwindIndicator } from "@/components/tailwind-indicator";
 import { SiteHeader } from "@/components/site-header";
+import { TailwindIndicator } from "@/components/tailwind-indicator";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,12 +45,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
             enableSystem
             disableTransitionOnChange
           >
-            <div className="m-6">
+            <div className="relative flex min-h-screen flex-col">
               <SiteHeader />
-
-              {children}
+              <div className="flex-1">{children}</div>
             </div>
-            {/* <TailwindIndicator /> */}
+            <TailwindIndicator />
           </ThemeProvider>
         </body>
       </html>

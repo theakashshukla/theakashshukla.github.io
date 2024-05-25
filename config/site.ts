@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Akash Shukla - Software Engineer",
+  name: "Quest",
   description:
-    "Akash Shukla is a software engineer based in India. He loves to build things for the web. Currently, he is working at a startup called Indian Robotics Solution as a Full Stack Developer.",
+    "A Quest Learning Platform for Students and Teachers Create Quizz Competition and Learn Together",
   mainNav: [
     // {
     //   title: "Home",
