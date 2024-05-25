@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { Icons } from "@/components/icons";
+import { Icons } from "../components/icons";
 
 
 export default function Home() {
